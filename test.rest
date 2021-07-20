@@ -1,7 +1,8 @@
-POST http://localhost:3000/postOrder
+POST http://localhost:3000/logOut
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "name": "shivam234",
+    "password": "fokat223@"
+    
 }
