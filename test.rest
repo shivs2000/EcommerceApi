@@ -1,4 +1,4 @@
-POST http://localhost:3000/logOut
+GET http://localhost:3000/getUser
 content-type: application/json
 
 {
