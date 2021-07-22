@@ -9,19 +9,24 @@ module.exports = {
         type: Sequelize.INTEGER
       },
       productName: {
-        type: Sequelize.STRING
+        type: Sequelize.STRING,
+        allowNull: false, 
       },
       discount:{
-        type:Sequelize.BIGINT
+        type:Sequelize.BIGINT,
+        allowNull: false, 
       },
       price:{
-        type:Sequelize.BIGINT
+        type:Sequelize.BIGINT,
+        allowNull: false, 
       },
       available:{
-        type:Sequelize.INTEGER
+        type:Sequelize.INTEGER,
+        allowNull: false, 
       },
       productType:{
-        type:Sequelize.STRING
+        type:Sequelize.STRING,
+        allowNull: false, 
       },
       createdAt: {
         allowNull: false,

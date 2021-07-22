@@ -1,8 +1,9 @@
-GET http://localhost:3000/getUser
+GET http://localhost:3000/viewOrders
 content-type: application/json
 
 {
-    "name": "shivam234",
-    "password": "fokat223@"
+    "orderId":"25",
+    "deliveryDate":"25 july 2021"
+    
     
 }
